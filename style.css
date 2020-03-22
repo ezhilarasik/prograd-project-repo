@@ -2,7 +2,7 @@
 { color:blueviolet}
 
 p{
-    font-family: fantasy;
+    font-family: "Courier New" ;
 
 }
 .font
@@ -13,3 +13,66 @@ p{
 {
     color: crimson;
 }
+.foo {
+    background-color:burlywood;
+    color: black;
+  }
+  
+  .bar {
+    background-color: inherit;
+    color: inherit;
+    font-weight: normal;
+  }
+  main p
+  {
+      font-style: initial;
+      text-align: center;
+  }
+  .f
+  {
+      font-family: cursive;
+  }
+  .f1
+  {
+font-style: italic;
+  }
+  .f2
+  {
+font-variant: normal;
+  }
+  .f3
+  {
+font-variant: small-caps;
+  }
+  .f4
+  {
+font-weight: normal;
+  }
+  .f5
+  {
+font-weight: lighter;
+  }
+  .f6
+  {
+font-weight: bolder;
+  }
+  .f7
+  {
+font-weight: 800;
+  }
+  .f8
+  {
+font-size: 150%;
+text-decoration: none;
+text-emp;
+  }
+  .f8
+  {
+font-size: xx-small;
+  }
+  .f8
+  {
+font-size: 30px;
+  }
+
+  
