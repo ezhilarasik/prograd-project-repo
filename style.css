@@ -114,16 +114,6 @@ h4 {
   border-radius: 50%;
   margin: 100px;
 }
-.codelogo
-{
- 
-    width: 50px;
-    height: 50px;
-    
-    align-items: center;
-    margin: 20px;
-  
-}
 
 #bio p {
   font-size: 1.5em;
@@ -156,7 +146,7 @@ p,
 hr {
   margin-bottom: 20px;
 }
-#portfolio div article {
+#portfolio div article  {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -168,6 +158,10 @@ hr {
   color: black;
   height: 200px;
   width: 250px;
+}.codelogo
+{
+  width: 50px;
+  height:50px;
 }
 #skills {
   display: flex;
@@ -205,9 +199,6 @@ hr {
 }
 #contact h3 {
   align-items: center;
-}
-progress {
-  color: #f05136;
 }
 #contact form {
   display: flex;
