@@ -1,4 +1,5 @@
 i = 0;
+flag = true;
 var queen = new Object();
 
 queen.direction = "S";
@@ -32,8 +33,9 @@ queen.updatePosition = function (x, y) {
 
 queen.jumpMoveForward = function (x, y) {
     if (x < 0 || y < 0 || x > 8 || y > 8) {
+        flag = false;
         console.log("Invalid Move");
-        //throw new Error;
+
 
     }
     else {
@@ -55,6 +57,7 @@ queen.changeDirection = function (direction) {
     else {
         d = direction.substr(0, 2);
         moves = direction.substr(2);
+        console.log(d, moves);
     }
 
     switch (d) {
@@ -100,7 +103,10 @@ function first() {
         console.log(s[j]);
         queen.changeDirection(s[j]);
         j++;
+        if (flag == false)
+            break;
     }
 
     document.getElementById("demo").innerHTML = queen.whereabouts;
+
 }
